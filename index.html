@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex API App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pokédex API App</h1>
+      <div id="pokemon-container" class="pokemon-container"></div>
+      <button id="load-more">Load More Pokémon</button>
+    </div>
+    <div id="pokemon-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="pokemon-name"></h2>
+        <img id="pokemon-image" alt="" />
+        <p id="pokemon-height"></p>
+        <p id="pokemon-description"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
